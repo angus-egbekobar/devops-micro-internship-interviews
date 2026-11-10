@@ -1,3 +1,4 @@
 #!/bin/bash
-
-# demo only - fake credential for this assignment, n
+# Sends a notification message. Demo stub for the assignment.
+: "${AWS_ACCESS_KEY_ID:?set AWS_ACCESS_KEY_ID}"
+echo "Notification sent"
